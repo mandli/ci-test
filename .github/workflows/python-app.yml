@@ -12,6 +12,9 @@ on:
 permissions:
   contents: read
 
+env:
+  CLAW: ${{ github.workspace }}
+
 jobs:
   build:
 
@@ -40,9 +43,9 @@ jobs:
       uses: actions/checkout@v4
       with:
         repository: clawpack/geoclaw
-        path: clawpack
+        path: ci-test4
     - name: Test environment
       run: |
         pwd
         ls
-        git clone
+        cd $CLAW/ci-test4
