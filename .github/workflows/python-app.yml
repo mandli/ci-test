@@ -42,7 +42,7 @@ jobs:
     - name: Checkout this repository
       uses: actions/checkout@v4
       with:
-        path: ${CLAW}/ci_test4
+        path: ci_test4
     - name: Test environment
       run: |
         cd ${CLAW}
