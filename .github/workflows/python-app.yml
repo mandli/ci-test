@@ -46,8 +46,12 @@ jobs:
     - name: Test environment
       run: |
         cd ${CLAW}
-        pwd
+        echo "=========="
+        echo "In directory: ${PWD}"
+        ls
         cd ${CLAW}/ci-test4
+        echo "=========="
+        echo "In directory: ${PWD}"
         pwd
         ls
         python test_file.py
