@@ -49,3 +49,5 @@ jobs:
         pwd
         ls
         cd $CLAW/ci-test4
+        ls
+        python test_file.py
