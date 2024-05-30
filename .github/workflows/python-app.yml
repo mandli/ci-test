@@ -49,7 +49,7 @@ jobs:
         echo "=========="
         echo "In directory: ${PWD}"
         ls
-        cd ${CLAW}/ci-test4
+        cd ${CLAW}/ci_test4
         echo "=========="
         echo "In directory: ${PWD}"
         pwd
