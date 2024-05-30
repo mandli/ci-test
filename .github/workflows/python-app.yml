@@ -38,7 +38,7 @@ jobs:
       run: |
         git submodule init
         git submodule update
-        # pip install --user -e .
+        pip install --user -e .
     - name: Checkout this repository
       uses: actions/checkout@v4
       with:
