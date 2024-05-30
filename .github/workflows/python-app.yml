@@ -41,8 +41,8 @@ jobs:
         pip install --user -e .
     - name: Checkout this repository
       uses: actions/checkout@v4
-        with:
-          path: ci_test4
+      with:
+        path: ci_test4
     - name: Test environment
       run: |
         pwd
